@@ -8,7 +8,7 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'execjs'
 gem 'will_paginate', '~> 3.0' # version added for rails 3 compatibility
 gem 'nokogiri'
-gem 'paperclip'
+gem 'paperclip', '~> 3.0'
 gem 'client_side_validations'
 gem 'whenever'
 gem 'plist'
@@ -61,7 +61,7 @@ end
 gem 'pry-rails', :group => [:development, :test]
 
 gem 'jquery-rails'
-gem 'jquery-ui-rails'
+gem 'jquery-ui-rails', '~> 4.0'
 
 gem 'redis-rails'
 gem 'puma'
